@@ -1,0 +1,9 @@
+openai
+re
+streamlit
+pandas
+numpy
+nltk
+json 
+random
+copy
