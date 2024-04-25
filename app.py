@@ -60,5 +60,5 @@ def main():
         st.write(response(user_input))
 
 if __name__ == "__main__":
-    client = OpenAI(api_key = 'sk-proj-kc7vqqZp4jHbh89EWC25T3BlbkFJRH74KKJyQKpYDijdJpsa')
+    client = OpenAI(api_key = st.secrets['open_ai_key'])
     main()
